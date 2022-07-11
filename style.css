@@ -114,3 +114,35 @@ a:hover{
 dd{
     margin: 15px;
 }
+
+.wrap{
+    max-width: 960px;
+  }
+  .header {
+    height: 80px;
+  }
+  .list li{
+    width: 33%;
+  }
+  .list h3{
+    font-size: 24px;
+  }
+  @media(max-width: 768px){
+    .header{
+      height: auto;
+    }
+    .list li{
+      width: 48%;
+      margin: 0 1%;
+    }
+  }
+  @media(max-width: 767px){
+    .list li{
+      width: 98%;
+    }
+  }
+  @media(max-width: 414px){
+    .list li{
+      font-size: 18px;
+    }
+  }
